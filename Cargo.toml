@@ -1,0 +1,17 @@
+[package]
+name = "lz4util"
+version = "0.1.0"
+authors = ["Kalle Samuels <ks@ks.ax>"]
+description = "A program to compress and decompress with LZ4"
+repository = "https://github.com/njaard/lz4util"
+readme = "Readme.md"
+keywords = [ "lz4", "cli", "compression" ]
+license = "BSD-2-Clause"
+
+[dependencies]
+lz4 = "1"
+clap = "2"
+
+[[bin]]
+name = "lz4"
+doc = false
