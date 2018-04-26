@@ -1,6 +1,6 @@
 [package]
 name = "lz4util"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Kalle Samuels <ks@ks.ax>"]
 description = "A program to compress and decompress with LZ4"
 repository = "https://github.com/njaard/lz4util"
